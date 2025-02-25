@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0; /* Remove extra padding */
+    background-image: url("London.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.rectangle {
+    width: 690px;
+    height: 150px;
+    background-color: #C8102E;
+    border-radius: 25px;
+    border: solid black 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* ✅ Moves it below "LONDON" */
+}
+
+#countdown {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+.countdown-title{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: none;
+    letter-spacing: 1px;
+    text-decoration-color: black;
+
+    margin-bottom: -10px;
+    padding-bottom: 5px;
+}
